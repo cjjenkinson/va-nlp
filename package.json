@@ -1,0 +1,33 @@
+{
+  "name": "va-nlp",
+  "version": "0.0.1",
+  "description": "simple NLP optimised to prototype conversation logic for virtual assistant projects (e.g Chatbots)",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjjenkinson/va-nlp.git"
+  },
+  "keywords": [
+    "nlp"
+  ],
+  "author": "Cameron Jenkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjjenkinson/va-nlp/issues"
+  },
+  "homepage": "https://github.com/cjjenkinson/va-nlp#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
