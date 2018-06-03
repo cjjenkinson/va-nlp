@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/cjjenkinson/va-nlp#readme",
   "dependencies": {
-    "lodash": "^4.17.5"
+    "limdu": "^0.9.4",
+    "lodash": "^4.17.5",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
